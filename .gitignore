@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/ftp_client/.vs/ftp_client/v15/ipch
+/ftp_client/Debug
+/ftp_client/.vs/ftp_client/v15
