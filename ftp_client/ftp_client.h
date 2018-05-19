@@ -70,7 +70,6 @@ public:
 
 	void print_response();
 
-
 	void dir();
 	void download(std::wstring source, std::wstring dest);
 	void upload(std::wstring source, std::wstring dest);
@@ -78,18 +77,3 @@ public:
 	SOCKET send_port_command(std::wstring command);
 	void to_mode(int mode);
 };
-
-//void recieve_thread() {
-//	std::wwstringstream stream;
-//	int result = 0;
-//	while ((result = recv(s, buffer, BUFFER_SIZE, 0)) > 0) {
-//		buffer[result] = 0;
-//		stream << buffer;
-//		for (int i = 0; i < result; i++)
-//			if (buffer[i] == '\n') {
-//				std::wstring str;
-//				std::getline(stream, str);
-//				recieve_new_line(str);
-//			}
-//	}
-//}
